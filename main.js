@@ -7,5 +7,5 @@ ActionButon.addEventListener("submit", function(e) {
 
     const CheckedMessage = checkedButton
 
-    CheckedMessage.textContent = "Chencked"
+    CheckedMessage.textContent = "Liked 👍"
 })
