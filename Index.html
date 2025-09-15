@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayub Abdi </title>
-    <link rel="shortcut icon" href="./img/mypig.jpeg" type="image/x-icon">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayub Abdi</title>
+    <link rel="shortcut icon" href="./img/mypig.jpeg" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
-</body>
+  </head>
+  <body class="h-screen bg-blue-300 mb-4">
+    <div class="h-screen bg-blue-300">
+        <div class="max-w-6xl h-screen mx-auto p-6 ">
+        <div class="grid grid-cols-1 items-center justify-center bg-white p-10 rounded gap-4 md:grid-cols-2 md:mt-20 lg:mt-60">
+              <div class="flex justify-center">
+                  <img class="w-64 h-64 rounded-full md:w-100 md:h-100 md:rounded" src="img/mypig.jpeg" alt="">
+              </div>
+            <div class="flex justify-center items-center flex-col space-y-4 mt-8">
+                <h2 class="font-bold text-2xl">Ayub Abdi Ibrahim</h2>
+                <p class="leading-relaxed">Hi There! My name is Ayub, a passionate front-end developer who loves building clean, modern, and user-friendly websites. I specialize in creating responsive and visually appealing interfaces using HTML5, CSS3, JavaScript (ES6+), and Tailwind CSS. With a strong eye for detail, <br> I enjoy turning creative ideas into interactive digital experiences. My goal is to continuously improve my skills and grow into a professional software engineer while developing impactful web applications that combine design, functionality, and performance.</p>
+                <form id="Action">
+                    <div class="flex  space-x-4 justify-center items-center mt-10">
+                    <button class="cursor-pointer bg-blue-600 p-4 rounded text-white  font-bold"><a href="">Contact Us</a></button>
+                    <button type="submit" class="cursor-pointer bg-gray-200 p-4 rounded font-bold"  id="buttonChecked">Click It</button>
+                </div>
+                </form>
+                
+
+              
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
 </html>
